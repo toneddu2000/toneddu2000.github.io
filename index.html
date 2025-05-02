@@ -4,13 +4,61 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<title>Antonio Latronico</title>
+<title>Antonio Latronico - personal site</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <main>
-<h1>Antonio Latronico</h1>
-<p>Personal portfolio</p>
+	<div id='clouds'>
+		<video autoplay muted loop id='myVideo'><source src='esempio17.mp4' type='video/mp4'></video>
+	</div>
+	
+	<div id='container'>
+		<div id='container-inner'>
+			<div id='header'>
+				<div id='header-inner'>
+					<div id='logo'>Antonio Latronico</div>
+				</div>
+			</div>
+			<div id='filterlavcont'>
+				<div id='filterlavtit'>Show:</div>
+				<div id='filterlavchoices'>
+					<fieldset id='filterlavgrp'>
+						<div class='filterlaventry'><input type='radio' value='value1' id='filt-all' name='filterlavgrp' checked>All works</div>
+						<div class='filterlaventry'><input type='radio' value='value2' id='filt-games' name='filterlavgrp'>Only games</div>
+						<div class='filterlaventry'><input type='radio' value='value3' id='filt-art' name='filterlavgrp'>Only artworks</div>
+					</fieldset>
+				</div>
+			</div>
+			<div id='lavori-container'>
+				<div class='lavoro-titolo'>Doom Marine</div>
+				<div class='lavoro-cat cat-art'></div>
+				<div class='clear'></div>
+				<div class='lavoro-skills'>Photoshop drawing skills</div>
+				<div class='lavoro-img'><a href=''><img src='img/last_marine_final.jpg' /></a></div>
+				<div class='lavoro-desc'>Last Marine - a tribute to new DOOM game by IdSoftware. All made in Photoshop, in about 6 hours</div>
+				</div>
+			</div>
+			<div id='toolbar'>
+				<ul>
+					<li><button id='bio'><img src='img/various/bio.png' /></button></li>
+					<li><button id='git'><img src='img/various/git.png' /></button></li>
+					<li><button id='linkedin'><img src='img/various/linkedin.png' /></button></li>
+					<li><button id='yt'><img src='img/various/yt.png' /></button></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id='footer'>
+		<div id='footer-inner'>Antonio Latronico - 2025 - all rights reserved</div>
+	</div>
+	<div id='bio-panel'>
+		<button id='bio-esc'>X</button>
+		<div id='bio-name'>$nm</div>
+		<div id='bio-studies'><h2>Studies</h2><p>$std</p></div>
+		<div id='bio-works'><h2>Works</h2><p>$wrk</p></div>
+		<div id='bio-mail'><a href='mailto:a.latronico@gmail.com'><img src='$p/img/various/maddr.png'/></a></div>
+	</div>
 </main>
 <script src="index.js"></script>
 </body>
