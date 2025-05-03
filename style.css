@@ -38,6 +38,17 @@ body {
 	font-size: 1em;
 }
 
+#cookie-container {
+    position: relative;
+    float: left;
+    top: -4px;
+    left: 22px;
+}
+
+#cookie-container p {
+    font-size: 0.7em;
+}
+
 #toolbar {
 	float: right;
     position: relative;
