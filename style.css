@@ -71,6 +71,11 @@ body {
     border: none;
     background: transparent;
     cursor: pointer;
+    border: solid 1px #ffffff;
+}
+
+#toolbar button:hover{
+    border: solid 1px #cccccc;
 }
 
 #clouds {
