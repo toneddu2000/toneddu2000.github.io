@@ -141,7 +141,6 @@ div.lavoro-div:hover {
     background: #43dc80;
 }
 
-
 .lavoro-skills {
     font-size: 0.7em;
     color: #a2a2a0;
@@ -153,7 +152,8 @@ div.lavoro-div:hover {
 }
 
 .lavoro-img img {
-    max-width: 578px;
+    /*max-width: 578px;*/
+    width: 100%;
     border: solid 2px #d2e2ff;
 }
 
